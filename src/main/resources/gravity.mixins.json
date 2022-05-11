@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.heartlessaus.gravity.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "entity.projectile.thrown.ThrownEntityMixin",
+    "entity.projectile.PersistentProjectileEntityMixin",
+    "entity.vehicle.AbstractMinecartEntityMixin",
+    "entity.vehicle.BoatEntityMixin",
+    "entity.ExperienceOrbEntityMixin",
+    "entity.FallingBlockEntityMixin",
+    "entity.ItemEntityMixin",
+    "entity.LivingEntityMixin",
+    "entity.TntEntityMixin"
+  ],
+  "client": [
+    "client.particle.ParticleMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
